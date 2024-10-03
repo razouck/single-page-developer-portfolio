@@ -13,3 +13,113 @@
 	padding    : 0;
 	box-sizing : inherit;
 }
+
+body
+{
+	font-size   : 1rem;
+	line-height : ratio(26, 16);
+	font-weight : 500;
+	font-family : "Space Grotesk", sans-serif;
+	min-height  : 100vh;
+}
+
+
+// Typography -------------------------------------------------------------------
+
+.heading-m,
+.heading-l,
+.heading-xl,
+.logo
+{
+	font-weight : 700;
+}
+
+.heading-m
+{
+	font-size   : toRem(24);
+	line-height : ratio(32, 24);
+}
+
+.heading-l
+{
+	font-size      : toRem(32);
+	line-height    : ratio(40, 32);
+	letter-spacing : toRem(-1);
+}
+
+.heading-xl
+{
+	font-size      : toRem(40);
+	line-height    : 1;
+	letter-spacing : toRem(-1.14);
+}
+
+.logo
+{
+	font-size       : toRem(24);
+	line-height     : ratio(32, 24);
+	letter-spacing  : toRem(-0.33);
+	text-decoration : none;
+	color           : inherit;
+}
+
+
+// Lists ------------------------------------------------------------------------
+
+.experience,
+.projects
+{
+	list-style : none;
+}
+
+
+//-------------------------------------------------------------------------------
+// Tablet -----------------------------------------------------------------------
+//-------------------------------------------------------------------------------
+
+@media (width >= toRem(768))
+{
+	// Typography ---------------------------------------------------------------
+
+	body
+	{
+		font-size   : toRem(18);
+		line-height : ratio(28, 18);
+	}
+
+	.heading-xl
+	{
+		font-size      : toRem(72);
+		letter-spacing : toRem(-2.05);
+	}
+}
+
+
+//-------------------------------------------------------------------------------
+// Desktop ----------------------------------------------------------------------
+//-------------------------------------------------------------------------------
+
+@media (width >= toRem(1440))
+{
+	// Typography ---------------------------------------------------------------
+
+	.heading-xl
+	{
+		font-size      : toRem(88);
+		letter-spacing : toRem(-2.5);
+	}
+
+	.heading-l
+	{
+		font-size      : toRem(48);
+		line-height    : ratio(56, 48);
+		letter-spacing : toRem(-1.5);
+	}
+
+	.logo
+	{
+		font-size      : toRem(32);
+		line-height    : 1;
+		letter-spacing : toRem(-0.44);
+	}
+}

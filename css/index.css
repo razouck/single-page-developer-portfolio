@@ -10,4 +10,76 @@
   box-sizing: inherit;
 }
 
+body {
+  font-size: 1rem;
+  line-height: 1.625;
+  font-weight: 500;
+  font-family: "Space Grotesk", sans-serif;
+  min-height: 100vh;
+}
+
+.heading-m,
+.heading-l,
+.heading-xl,
+.logo {
+  font-weight: 700;
+}
+
+.heading-m {
+  font-size: 1.5rem;
+  line-height: 1.3333333333;
+}
+
+.heading-l {
+  font-size: 2rem;
+  line-height: 1.25;
+  letter-spacing: -0.0625rem;
+}
+
+.heading-xl {
+  font-size: 2.5rem;
+  line-height: 1;
+  letter-spacing: -0.07125rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  line-height: 1.3333333333;
+  letter-spacing: -0.020625rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.experience,
+.projects {
+  list-style: none;
+}
+
+@media (width >= 48rem) {
+  body {
+    font-size: 1.125rem;
+    line-height: 1.5555555556;
+  }
+  .heading-xl {
+    font-size: 4.5rem;
+    letter-spacing: -0.128125rem;
+  }
+}
+@media (width >= 90rem) {
+  .heading-xl {
+    font-size: 5.5rem;
+    letter-spacing: -0.15625rem;
+  }
+  .heading-l {
+    font-size: 3rem;
+    line-height: 1.1666666667;
+    letter-spacing: -0.09375rem;
+  }
+  .logo {
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -0.0275rem;
+  }
+}
+
 /*# sourceMappingURL=index.css.map */

@@ -3,15 +3,33 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 	<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-
 	<title>Frontend Mentor | Single-page developer portfolio</title>
+	<style>
+		@font-face
+		{
+			font-family  : "Space Grotesk";
+			src          : url("assets/fonts/static/SpaceGrotesk-Bold.ttf") format("truetype");
+			font-weight  : 700;
+			font-style   : normal;
+			font-display : swap;
+		}
+
+		@font-face
+		{
+			font-family  : "Space Grotesk";
+			src          : url("assets/fonts/static/SpaceGrotesk-Medium.ttf") format("truetype");
+			font-weight  : 500;
+			font-style   : normal;
+			font-display : swap;
+		}
+	</style>
+	<link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
 
 <header>
-	<a href="#">adamkeyes</a>
+	<a class="logo" href="#">adamkeyes</a>
 
 	<ul class="socials">
 		<li><a href="javascript:void(0)">
@@ -36,7 +54,7 @@
 		</a></li>
 	</ul>
 
-	<h1>Nice to meet you! I'm Adam Keyes.</h1>
+	<h1 class="heading-xl">Nice to meet you! I'm Adam Keyes.</h1>
 	<p class="bio">Based in the UK, I'm a front-end developer passionate about
 		building
 		accessible web apps that users love.</p>
@@ -44,44 +62,44 @@
 
 	<ul class="experience">
 		<li>
-			<div>HTML</div>
+			<div class="heading-l">HTML</div>
 			<div>4 Years Experience</div>
 		</li>
 		<li>
-			<div>CSS</div>
+			<div class="heading-l">CSS</div>
 			<div>4 Years Experience</div>
 		</li>
 		<li>
-			<div>JavaScript</div>
+			<div class="heading-l">JavaScript</div>
 			<div>4 Years Experience</div>
 		</li>
 		<li>
-			<div>Accessibility</div>
+			<div class="heading-l">Accessibility</div>
 			<div>4 Years Experience</div>
 		</li>
 		<li>
-			<div>React</div>
+			<div class="heading-l">React</div>
 			<div>3 Years Experience</div>
 		</li>
 		<li>
-			<div>Sass</div>
+			<div class="heading-l">Sass</div>
 			<div>3 Years Experience</div>
 		</li>
 	</ul>
 </header>
 
 <main>
-	<h2>Projects</h2>
+	<h2 class="heading-xl">Projects</h2>
 
 	<a href="javascript:void(0)" class="button">Contact me</a>
 
-	<ul>
+	<ul class="projects">
 		<li>
 			<div>
 				<a href="javascript:void(0)">View project</a>
 				<a href="javascript:void(0)">View code</a>
 			</div>
-			<div>Design portfolio</div>
+			<div class="heading-m uppercase">Design portfolio</div>
 			<div>HTML CSS</div>
 		</li>
 
@@ -90,7 +108,7 @@
 				<a href="javascript:void(0)">View project</a>
 				<a href="javascript:void(0)">View code</a>
 			</div>
-			<div>E-learning landing page</div>
+			<div class="heading-m uppercase">E-learning landing page</div>
 			<div>HTML CSS</div>
 		</li>
 
@@ -99,7 +117,7 @@
 				<a href="javascript:void(0)">View project</a>
 				<a href="javascript:void(0)">View code</a>
 			</div>
-			<div>Todo web app</div>
+			<div class="heading-m uppercase">Todo web app</div>
 			<div>HTML CSS JavaScript</div>
 		</li>
 
@@ -108,7 +126,7 @@
 				<a href="javascript:void(0)">View project</a>
 				<a href="javascript:void(0)">View code</a>
 			</div>
-			<div>Entertainment web app</div>
+			<div class="heading-m uppercase">Entertainment web app</div>
 			<div>HTML CSS JavaScript</div>
 		</li>
 
@@ -117,7 +135,7 @@
 				<a href="javascript:void(0)">View project</a>
 				<a href="javascript:void(0)">View code</a>
 			</div>
-			<div>Memory Game</div>
+			<div class="heading-m uppercase">Memory Game</div>
 			<div>HTML CSS JavaScript</div>
 		</li>
 
@@ -126,7 +144,7 @@
 				<a href="javascript:void(0)">View project</a>
 				<a href="javascript:void(0)">View code</a>
 			</div>
-			<div>Art gallery showcase</div>
+			<div class="heading-m uppercase">Art gallery showcase</div>
 			<div>HTML CSS JavaScript</div>
 		</li>
 	</ul>
@@ -134,7 +152,7 @@
 
 <footer>
 	<section>
-		<h2>Contact</h2>
+		<h2 class="heading-xl">Contact</h2>
 		<p>I would love to hear about your project and how I could help. Please
 			fill in the form, and I’ll get back to you as soon as possible.</p>
 	</section>
@@ -147,7 +165,7 @@
 	</form>
 
 	<div>
-		<a href="#">adamkeyes</a>
+		<a class="logo" href="#">adamkeyes</a>
 
 		<ul class="socials">
 			<li><a href="javascript:void(0)">
