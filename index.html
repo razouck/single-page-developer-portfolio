@@ -26,8 +26,7 @@
 	</style>
 	<link rel="stylesheet" href="./css/index.css">
 </head>
-<body>
-
+<body debug>
 <header>
 	<a class="logo" href="#">adamkeyes</a>
 
@@ -54,7 +53,7 @@
 		</a></li>
 	</ul>
 
-	<picture>
+	<picture class="portrait">
 		<source media="(min-width: 1440px)" srcset="./assets/images/image-profile-desktop.webp" type="image/webp">
 		<source media="(min-width: 768px)" srcset="./assets/images/image-profile-tablet.webp" type="image/webp">
 		<img src="./assets/images/image-profile-mobile.webp" alt="A picture of Adam Keyes">
@@ -64,7 +63,7 @@
 	<p class="bio">Based in the UK, I'm a front-end developer passionate about
 		building
 		accessible web apps that users love.</p>
-	<a href="javascript:void(0)">Contact me</a>
+	<a class="button" href="javascript:void(0)">Contact me</a>
 
 	<ul class="experience">
 		<li>
@@ -100,82 +99,94 @@
 	<a href="javascript:void(0)" class="button">Contact me</a>
 
 	<ul class="projects">
-		<li>
+		<li class="project">
 			<picture>
 				<source media="(min-width: 1440px)" srcset="./assets/images/thumbnail-project-1-large.webp" type="image/webp">
 				<img src="./assets/images/thumbnail-project-1-small.webp" alt="">
 			</picture>
-			<div>
-				<a href="javascript:void(0)">View project</a>
-				<a href="javascript:void(0)">View code</a>
-			</div>
 			<div class="heading-m uppercase">Design portfolio</div>
-			<div>HTML CSS</div>
+			<ul class="technologies">
+				<li class="uppercase">HTML</li>
+				<li class="uppercase">CSS</li>
+				<li class="uppercase">JavaScript</li>
+			</ul>
+			<a class="button" href="javascript:void(0)">View project</a>
+			<a class="button" href="javascript:void(0)">View code</a>
 		</li>
 
-		<li>
+		<li class="project">
 			<picture>
 				<source media="(min-width: 1440px)" srcset="./assets/images/thumbnail-project-2-large.webp" type="image/webp">
 				<img src="./assets/images/thumbnail-project-2-small.webp" alt="">
 			</picture>
-			<div>
-				<a href="javascript:void(0)">View project</a>
-				<a href="javascript:void(0)">View code</a>
-			</div>
 			<div class="heading-m uppercase">E-learning landing page</div>
-			<div>HTML CSS</div>
+			<ul class="technologies">
+				<li class="uppercase">HTML</li>
+				<li class="uppercase">CSS</li>
+				<li class="uppercase">JavaScript</li>
+			</ul>
+			<a class="button" href="javascript:void(0)">View project</a>
+			<a class="button" href="javascript:void(0)">View code</a>
 		</li>
 
-		<li>
+		<li class="project">
 			<picture>
 				<source media="(min-width: 1440px)" srcset="./assets/images/thumbnail-project-3-large.webp" type="image/webp">
 				<img src="./assets/images/thumbnail-project-3-small.webp" alt="">
 			</picture>
-			<div>
-				<a href="javascript:void(0)">View project</a>
-				<a href="javascript:void(0)">View code</a>
-			</div>
 			<div class="heading-m uppercase">Todo web app</div>
-			<div>HTML CSS JavaScript</div>
+			<ul class="technologies">
+				<li class="uppercase">HTML</li>
+				<li class="uppercase">CSS</li>
+				<li class="uppercase">JavaScript</li>
+			</ul>
+			<a class="button" href="javascript:void(0)">View project</a>
+			<a class="button" href="javascript:void(0)">View code</a>
 		</li>
 
-		<li>
+		<li class="project">
 			<picture>
 				<source media="(min-width: 1440px)" srcset="./assets/images/thumbnail-project-4-large.webp" type="image/webp">
 				<img src="./assets/images/thumbnail-project-4-small.webp" alt="">
 			</picture>
-			<div>
-				<a href="javascript:void(0)">View project</a>
-				<a href="javascript:void(0)">View code</a>
-			</div>
 			<div class="heading-m uppercase">Entertainment web app</div>
-			<div>HTML CSS JavaScript</div>
+			<ul class="technologies">
+				<li class="uppercase">HTML</li>
+				<li class="uppercase">CSS</li>
+				<li class="uppercase">JavaScript</li>
+			</ul>
+			<a class="button" href="javascript:void(0)">View project</a>
+			<a class="button" href="javascript:void(0)">View code</a>
 		</li>
 
-		<li>
+		<li class="project">
 			<picture>
 				<source media="(min-width: 1440px)" srcset="./assets/images/thumbnail-project-5-large.webp" type="image/webp">
 				<img src="./assets/images/thumbnail-project-5-small.webp" alt="">
 			</picture>
-			<div>
-				<a href="javascript:void(0)">View project</a>
-				<a href="javascript:void(0)">View code</a>
-			</div>
 			<div class="heading-m uppercase">Memory Game</div>
-			<div>HTML CSS JavaScript</div>
+			<ul class="technologies">
+				<li class="uppercase">HTML</li>
+				<li class="uppercase">CSS</li>
+				<li class="uppercase">JavaScript</li>
+			</ul>
+			<a class="button" href="javascript:void(0)">View project</a>
+			<a class="button" href="javascript:void(0)">View code</a>
 		</li>
 
-		<li>
+		<li class="project">
 			<picture>
 				<source media="(min-width: 1440px)" srcset="./assets/images/thumbnail-project-6-large.webp" type="image/webp">
 				<img src="./assets/images/thumbnail-project-6-small.webp" alt="">
 			</picture>
-			<div>
-				<a href="javascript:void(0)">View project</a>
-				<a href="javascript:void(0)">View code</a>
-			</div>
 			<div class="heading-m uppercase">Art gallery showcase</div>
-			<div>HTML CSS JavaScript</div>
+			<ul class="technologies">
+				<li class="uppercase">HTML</li>
+				<li class="uppercase">CSS</li>
+				<li class="uppercase">JavaScript</li>
+			</ul>
+			<a class="button" href="javascript:void(0)">View project</a>
+			<a class="button" href="javascript:void(0)">View code</a>
 		</li>
 	</ul>
 </main>
@@ -189,8 +200,11 @@
 
 	<form action="" name="Contact">
 		<input name="name" placeholder="Name" aria-label="name">
+
 		<input type="email" name="email" id="email" placeholder="Email" aria-label="email">
-		<textarea name="message" id="message" aria-label="Message">Message</textarea>
+
+		<textarea name="message" id="message" aria-label="Message" rows="3">MESSAGE</textarea>
+
 		<button class="button" name="submit" type="submit">Send message</button>
 	</form>
 
