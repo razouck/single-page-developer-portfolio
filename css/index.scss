@@ -2,7 +2,13 @@
 
 :root
 {
-	box-sizing : border-box;
+	--grey      : hsl(0, 0%, 85%);
+	--dark-grey : hsl(0, 0%, 14%);
+	--black     : hsl(0, 0%, 8%);
+	--green     : hsl(153, 71%, 59%);
+	--red       : hsl(7, 100%, 68%);
+
+	box-sizing  : border-box;
 }
 
 *,
@@ -16,11 +22,13 @@
 
 body
 {
-	font-size   : 1rem;
-	line-height : ratio(26, 16);
-	font-weight : 500;
-	font-family : "Space Grotesk", sans-serif;
-	min-height  : 100vh;
+	font-size        : 1rem;
+	line-height      : ratio(26, 16);
+	font-weight      : 500;
+	font-family      : "Space Grotesk", sans-serif;
+	min-height       : 100vh;
+	background-color : var(--black);
+	color            : var(--grey);
 }
 
 button,
@@ -45,6 +53,18 @@ img
 	background-repeat : no-repeat;
 	background-size   : cover;
 	user-select       : none;
+}
+
+input,
+input::placeholder,
+textarea
+{
+	color : white;
+}
+
+svg
+{
+	fill : white;
 }
 
 
@@ -100,6 +120,12 @@ body[debug]
 .logo
 {
 	font-weight : 700;
+	color       : white;
+}
+
+.logo:active
+{
+	color : var(--green);
 }
 
 .heading-m
@@ -128,7 +154,6 @@ body[debug]
 	line-height     : ratio(32, 24);
 	letter-spacing  : toRem(-0.33);
 	text-decoration : none;
-	color           : inherit;
 }
 
 
@@ -204,6 +229,14 @@ header
 	{
 		margin-block-start : 24px;
 	}
+}
+
+.bottom-bar
+{
+	text-decoration           : underline;
+	text-decoration-color     : var(--green);
+	text-decoration-thickness : 3px;
+	text-decoration-skip-ink  : none;
 }
 
 .experience
@@ -294,7 +327,7 @@ footer
 	padding-block-start : 62px;
 	padding-block-end   : 49px;
 	margin-block-start  : 79px;
-	background-color    : rgba(0 0 0 / 0.05);
+	background-color    : var(--dark-grey);
 
 	p
 	{
@@ -369,9 +402,14 @@ footer
 	text-transform    : uppercase;
 	text-decoration   : none;
 	letter-spacing    : toRem(2.29);
-	color             : inherit;
-	border-block-end  : 2px solid;
 	padding-block-end : 9px;
+	color             : white;
+	border-block-end  : 2px solid var(--green);
+
+	&:active
+	{
+		color : var(--green);
+	}
 }
 
 button.button
@@ -496,6 +534,11 @@ button.button
 			margin-block-start : 35px;
 			justify-self       : start;
 		}
+	}
+
+	.bottom-bar
+	{
+		text-decoration-thickness : 4px;
 	}
 
 	.experience
@@ -678,6 +721,12 @@ button.button
 			margin-inline-end : 29px;
 			column-gap        : 31px;
 		}
+	}
+
+	.bottom-bar
+	{
+		text-decoration-thickness : 6px;
+		text-underline-offset     : 15px;
 	}
 
 	.experience
