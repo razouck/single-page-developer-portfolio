@@ -25,6 +25,13 @@ body {
   color: var(--grey);
 }
 
+a:active {
+  color: var(--green);
+}
+a:active * {
+  fill: var(--green);
+}
+
 button,
 input,
 textarea {
@@ -95,10 +102,6 @@ body[debug]::after {
 .logo {
   font-weight: 700;
   color: white;
-}
-
-.logo:active {
-  color: var(--green);
 }
 
 .heading-m {

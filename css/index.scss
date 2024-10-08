@@ -31,6 +31,16 @@ body
 	color            : var(--grey);
 }
 
+a:active
+{
+	color : var(--green);
+
+	*
+	{
+		fill : var(--green);
+	}
+}
+
 button,
 input,
 textarea
@@ -121,11 +131,6 @@ body[debug]
 {
 	font-weight : 700;
 	color       : white;
-}
-
-.logo:active
-{
-	color : var(--green);
 }
 
 .heading-m
