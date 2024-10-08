@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec5b8a4f-d0e0-4447-b001-389da4cb3ffa" name="Changes" comment="Add images">
+    <list default="true" id="ec5b8a4f-d0e0-4447-b001-389da4cb3ffa" name="Changes" comment="Add mobile layout">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css.map" afterDir="false" />
@@ -75,7 +75,8 @@
       <updated>1727965197289</updated>
       <workItem from="1727965198420" duration="12000" />
       <workItem from="1727965457451" duration="22932000" />
-      <workItem from="1728080328908" duration="4635000" />
+      <workItem from="1728080328908" duration="40662000" />
+      <workItem from="1728384903351" duration="9959000" />
     </task>
     <task id="LOCAL-00001" summary="Add markup">
       <option name="closed" value="true" />
@@ -117,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727997005345</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add mobile layout">
+      <option name="closed" value="true" />
+      <created>1728097839103</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728097839103</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +149,7 @@
     <MESSAGE value="Add typesetting" />
     <MESSAGE value="Remove bullets from lists" />
     <MESSAGE value="Add images" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add images" />
+    <MESSAGE value="Add mobile layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add mobile layout" />
   </component>
 </project>
